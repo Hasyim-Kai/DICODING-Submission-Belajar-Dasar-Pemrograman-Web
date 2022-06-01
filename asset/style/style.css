@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playfair Display", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+article > img, article section {
+  width: 50%;
+  color: rgba(32, 32, 32, 0.986);
+}
+
+article section {
+  box-sizing: border-box;
+  padding: 2rem 3rem;
+}
+
+#hero {
+  display: flex;
+  font-size: 3rem;
+}
+
+#hero section p:first-child:hover {
+  transition: all 0.7s ease-in-out;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+#hero section p {
+  margin: 1.3rem auto;
+}
+
+#hero section #year {
+  font-size: 2rem;
+  color: rgb(97, 97, 97);
+}
+
+/* #menu {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 3rem;
+}
+
+#menu div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu div h3 {
+  margin: 0.5rem 0;
+  display: inline-block;
+}
+
+#menu div p {
+  margin: 1rem 0;
+  color: grey;
+  cursor: pointer;
+}
+
+#menu p {
+  margin: 2rem 0;
+}
+
+#menu section > p:hover {
+  border-left: rgb(56, 56, 56) solid 2px;
+  transition: all 0.8s;
+  padding-left: 2rem;
+} */
+
+/* #about{
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+#about div {
+  display: flex;
+  gap: 1.4rem;
+} */
+
+/* #biodata {
+  background: rgb(42,42,42);
+  background: linear-gradient(54deg, rgba(42,42,42,1) 0%, rgba(60,60,60,1) 49%, rgba(24,24,24,1) 100%);
+  width: 100%;
+  padding: 10rem 0;
+}
+
+aside {
+  background: white;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside > img {  
+  width: 100%;
+}
+
+aside section {  
+  padding: 3rem;
+}
+
+aside h2 {  
+  margin-top: 0;
+  margin-bottom: 1.1rem;
+}
+
+aside a {  
+  font-style: italic;
+  font-size: 1.5rem;
+  color: rgb(97, 97, 97);
+} */
+
+/* footer{
+  background: black;
+  background: linear-gradient(127deg, black 0%, rgba(33,33,33,1) 100%);
+  padding: 3rem 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+} */
+
+
+@media only screen and (max-width: 768px) {
+  article > img, article section {
+    width: 100%;
+    font-size: 2rem;
+  }
+  
+  #hero, #about, #menu {
+    flex-direction: column;
+  }
+
+  /* aside {
+    flex-direction: column;
+    width: 85%;
+    text-align: center;
+  } */
+}
