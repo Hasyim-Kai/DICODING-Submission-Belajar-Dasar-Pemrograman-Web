@@ -40,7 +40,7 @@ article section {
   color: rgb(97, 97, 97);
 }
 
-/* #menu {
+#menu {
   display: flex;
   flex-direction: row-reverse;
   font-size: 3rem;
@@ -71,7 +71,7 @@ article section {
   border-left: rgb(56, 56, 56) solid 2px;
   transition: all 0.8s;
   padding-left: 2rem;
-} */
+}
 
 /* #about{
   display: flex;
