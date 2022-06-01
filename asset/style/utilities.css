@@ -1,0 +1,14 @@
+.border-b {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: black solid 2px;
+}
+.border-l {
+    padding-left: 2rem;
+    border-left: rgb(56, 56, 56) solid 2px;
+}
+
+.border-l:hover {
+    transition: all 0.7s;
+    padding-left: 3rem;
+}
