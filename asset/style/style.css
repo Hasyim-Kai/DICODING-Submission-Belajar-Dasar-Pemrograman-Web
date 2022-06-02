@@ -73,7 +73,7 @@ article section {
   padding-left: 2rem;
 }
 
-/* #about{
+#about{
   display: flex;
   align-items: center;
   font-size: 1.7rem;
@@ -82,9 +82,9 @@ article section {
 #about div {
   display: flex;
   gap: 1.4rem;
-} */
+}
 
-/* #biodata {
+#biodata {
   background: rgb(42,42,42);
   background: linear-gradient(54deg, rgba(42,42,42,1) 0%, rgba(60,60,60,1) 49%, rgba(24,24,24,1) 100%);
   width: 100%;
@@ -118,7 +118,7 @@ aside a {
   font-style: italic;
   font-size: 1.5rem;
   color: rgb(97, 97, 97);
-} */
+}
 
 /* footer{
   background: black;
@@ -141,9 +141,9 @@ aside a {
     flex-direction: column;
   }
 
-  /* aside {
+  aside {
     flex-direction: column;
     width: 85%;
     text-align: center;
-  } */
+  }
 }
